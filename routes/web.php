@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/bpd', function () {
     return view('/lembaga/bpd');
 });
+
+Route::get('/dashboard', function () {
+    return view('/dashboard');
+});
