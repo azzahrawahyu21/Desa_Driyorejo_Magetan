@@ -9,3 +9,11 @@ Route::get('/', function () {
 Route::get('/bpd', function () {
     return view('/lembaga/bpd');
 });
+
+Route::get('/visi', function () {
+     return view('/profil/visimisi');
+ });
+
+Route::get('/struktur', function () {
+     return view('/profil/struktur');
+ });
