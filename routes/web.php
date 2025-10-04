@@ -10,6 +10,10 @@ Route::get('/bpd', function () {
     return view('/lembaga/bpd');
 });
 
+Route::get('/dashboard', function () {
+    return view('/dashboard');
+});
+
 Route::get('/visi', function () {
      return view('/profil/visimisi');
  });

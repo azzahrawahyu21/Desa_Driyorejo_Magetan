@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Lembaga Desa Driyorejo - BPD</title>
+  <title>Badan Permusyawaratan Desa (BPD)</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -14,9 +14,9 @@
 
   {{-- Header --}}
 <header class="header-2 position-relative">
-  <div class="page-header min-vh-100 d-flex align-items-center justify-content-center text-center text-white"
-       style="background-image: url('{{ asset('assets/img/lembaga/background_bpd.png') }}');
-              background-size: cover; background-position: center;">
+  <div class="page-header d-flex align-items-center justify-content-center text-center text-white"
+       style="background-image: url('{{ asset('assets/img/lembaga/back_bpd.jpg') }}');
+              background-size: cover; background-position: center; height: 60vh; position: relative;">
     <!-- Overlay -->
     <div style="background: rgba(0,0,0,0.5); position:absolute; top:0; right:0; bottom:0; left:0;"></div>
 
@@ -28,18 +28,20 @@
 </header>
 
   {{-- Content --}}
-  <main class="container my-5">
-    <div class="card shadow-sm p-4">
-      <h3 class="bg-success text-white text-center py-2 mb-4">BADAN PERMUSYAWARATAN DESA (BPD)</h3>
+<main class="position-relative mb-5">
+  <div class="container" style="margin-top:-180px; z-index:5; position:relative;">
+  <div class="card p-4 bg-white" 
+      style="border-radius:20px; box-shadow: 0 4px 15px rgba(13, 71, 21, 0.5);">
+      <h4 class="bg-success text-white text-center py-2 mb-4">BADAN PERMUSYAWARATAN DESA (BPD)</h4>
 
       <div class="text-center mb-4">
         <img src="{{ asset('assets/img/lembaga/struktur_bpd.png') }}" class="img-fluid" alt="Struktur BPD">
       </div>
 
-      <p><strong>Badan Permusyawaratan Desa (BPD)</strong> Desa Driyorejo merupakan lembaga yang menjalankan fungsi legislasi
-        (peraturan desa), menampung dan menyalurkan aspirasi masyarakat, serta melakukan pengawasan terhadap jalannya
-        pemerintahan desa. BPD adalah mitra kerja Kepala Desa dalam menyusun kebijakan dan program pembangunan.
-        Dengan demikian, BPD memiliki peran penting untuk mewujudkan pemerintahan desa yang transparan, partisipatif,
+      <p><strong>Badan Permusyawaratan Desa (BPD)</strong> Desa Driyorejo merupakan lembaga yang menjalankan fungsi 
+        legislasi (peraturan desa), menampung dan menyalurkan aspirasi masyarakat, serta melakukan pengawasan terhadap 
+        jalannya pemerintahan desa. BPD adalah mitra kerja Kepala Desa dalam menyusun kebijakan dan program pembangunan. 
+        Dengan demikian, BPD memiliki peran penting untuk mewujudkan pemerintahan desa yang transparan, partisipatif, 
         demokratis, dan akuntabel. Dasar hukum keberadaan BPD adalah Undang-Undang Nomor 6 Tahun 2014 tentang Desa.
       </p>
 
@@ -70,7 +72,8 @@
         </ol>
       </div>
     </div>
-  </main>
+  </div>
+</main>
 
    {{-- footer --}}
   @include('footer')
