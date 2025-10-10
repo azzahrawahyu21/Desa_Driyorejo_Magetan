@@ -104,12 +104,13 @@
               Lembaga <i class="bi bi-chevron-down ms-2"></i>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">BPD</a></li>
-              <li><a class="dropdown-item" href="#">LPMD</a></li>
-              <li><a class="dropdown-item" href="#">PKK</a></li>
-              <li><a class="dropdown-item" href="#">Karang Taruna</a></li>
-              <li><a class="dropdown-item" href="#">Bumdes</a></li>
-              <li><a class="dropdown-item" href="#">PPID</a></li>
+              <li><a class="dropdown-item" href="{{ route('bpd') }}">BPD</a></li>
+              <li><a class="dropdown-item" href="{{ route('lpmd') }}">LPMD</a></li>
+              <li><a class="dropdown-item" href="{{ route('pkk') }}">PKK</a></li>
+              <li><a class="dropdown-item" href="{{ route('rtrw') }}">RT/RW</a></li>
+              <li><a class="dropdown-item" href="{{ route('kartar') }}">Karang Taruna</a></li>
+              <li><a class="dropdown-item" href="{{ route('bumdes') }}">Bumdes</a></li>
+              <li><a class="dropdown-item" href="{{ route('ppid') }}">PPID</a></li>
               
             </ul>
           </li>
