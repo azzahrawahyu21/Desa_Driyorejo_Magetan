@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::get('/bpd', function () {return view('/lembaga/bpd');});
+// menu
 Route::get('/dashboard', function () {return view('/dashboard');});
 Route::get('/visi', function () {return view('/profil/visimisi');});
 Route::get('/struktur', function () {return view('/profil/struktur');});
