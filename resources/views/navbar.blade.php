@@ -68,19 +68,23 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
 
+          <!-- Beranda -->
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="{{ route('dashboard') }}">Beranda</a>
+          </li>
+
           <!-- Profil Desa -->
           <li class="nav-item dropdown">
             <a class="nav-link text-dark d-flex align-items-center" href="#" data-bs-toggle="dropdown">
               Profil Desa <i class="bi bi-chevron-down ms-2"></i>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Profil Desa</a></li>
-              <li><a class="dropdown-item" href="#">Sejarah Desa</a></li>
-              <li><a class="dropdown-item" href="#">Visi Misi</a></li>
-              <li><a class="dropdown-item" href="#">Struktur Keanggotaan dan Profil Pejabat</a></li>
+              <li><a class="dropdown-item" href="{{ route('profil_desa') }}">Profil Desa</a></li>
+              <li><a class="dropdown-item" href="{{ route('sejarah') }}">Sejarah Desa</a></li>
+              <li><a class="dropdown-item" href="{{ route('visimisi') }}">Visi Misi</a></li>
+              <li><a class="dropdown-item" href="{{ route('struktur_anggota') }}">Struktur Keanggotaan dan Profil Pejabat</a></li>
               <li><a class="dropdown-item" href="#">Regulasi</a></li>
-              <li><a class="dropdown-item" href="#">Peta Desa</a></li>
-              <li><a class="dropdown-item" href="#">UMKM</a></li>
+              <li><a class="dropdown-item" href="{{ route('umkm') }}">UMKM</a></li>
             </ul>
           </li>
 
@@ -117,7 +121,7 @@
 
           <!-- Berita Desa -->
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Berita Desa</a>
+            <a class="nav-link text-dark" href="{{ route('berita') }}">Berita Desa</a>
           </li>
 
           <!-- Galeri -->
